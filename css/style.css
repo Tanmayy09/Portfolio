@@ -1,0 +1,15 @@
+.tt {
+    transition: transform .3s;
+}
+
+.tt:hover {
+    transform: translateY(-3px);
+}
+
+.pi1 {
+    transition: transform 0.3s ease;
+}
+
+.pi1:hover {
+    transform: scale(1.5);
+}
